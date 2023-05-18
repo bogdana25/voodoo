@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/voodoo/static/css/main.e7dba070.css",
-    "main.js": "/voodoo/static/js/main.b21f6f76.js",
+    "main.css": "/voodoo/static/css/main.f8ec62e2.css",
+    "main.js": "/voodoo/static/js/main.752a4d58.js",
     "static/js/787.f2d41ec9.chunk.js": "/voodoo/static/js/787.f2d41ec9.chunk.js",
     "index.html": "/voodoo/index.html",
     "static/media/mini_logo.svg": "/voodoo/static/media/mini_logo.2ef10b6e56a3a79cd15c144454c2a1a9.svg",
     "static/media/alert-circle.svg": "/voodoo/static/media/alert-circle.a8d055cbfc1ba9fb4952744e0cdac782.svg",
     "static/media/arrow-down.svg": "/voodoo/static/media/arrow-down.371f3ca92c0da6b9bf22917bb3c64bb9.svg",
-    "main.e7dba070.css.map": "/voodoo/static/css/main.e7dba070.css.map",
-    "main.b21f6f76.js.map": "/voodoo/static/js/main.b21f6f76.js.map",
+    "main.f8ec62e2.css.map": "/voodoo/static/css/main.f8ec62e2.css.map",
+    "main.752a4d58.js.map": "/voodoo/static/js/main.752a4d58.js.map",
     "787.f2d41ec9.chunk.js.map": "/voodoo/static/js/787.f2d41ec9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7dba070.css",
-    "static/js/main.b21f6f76.js"
+    "static/css/main.f8ec62e2.css",
+    "static/js/main.752a4d58.js"
   ]
 }
