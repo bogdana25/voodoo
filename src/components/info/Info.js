@@ -36,11 +36,11 @@ const Info = () => {
                </div>
 
                <div className='hide' ref={textRef}>
-                  <div className="text-hide text-sm[18] font-medium text-white  border-y py-6 text-center">
+                  <div className=" text-sm[18] font-medium text-white  border-y py-6 text-center">
                      We’re working on a new service to offer you returned online goods at a discount near you.
                   </div>
-                  <div className="text-hide  md:flex justify-center text-white py-6 items-center">
-                     <div className="flexbox mb-6 md:m-0">
+                  <div className=" md:flex justify-center text-white py-6 items-center">
+                     <div className=" mb-6 md:m-0">
                         <h5 className='font-bold text-sm/[18px] mb-5'>CURRENTLY</h5>
                         <ol className='font-normal text-xs/[15px] list-decimal'>
                            <li className="pb-3.5"> Very limited assortment of items that we resell</li>
@@ -49,7 +49,7 @@ const Info = () => {
                         </ol>
                      </div>
                      <div className="img mx-12 hidden md:block"><img src={imginfo} alt="arrows right" /></div>
-                     <div className="flexbox">
+                     <div className="">
                         <h5 className='font-bold text-sm/[18px] mb-5'>FUTURE</h5>
                         <ol className='font-normal text-xs/[15px] list-decimal'>
                            <li className="pb-3.5">Returned items from other shoppers</li>

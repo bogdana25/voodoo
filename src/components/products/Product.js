@@ -18,7 +18,7 @@ const Product = (props) => {
                   <div className="font-normal text-sm/[18px] text-black">Slightly used</div>
                </div>
             </div>
-            <button className="bg-black text-white w-full rounded py-4 font-bold text-sm/[18px] hover:bg-orange-600 duration-700">PICK-UP IN 2200</button>
+            <button className="bg-black text-white w-full rounded py-4 font-bold text-sm/[18px] hover:bg-orange-600 duration-700">PICK-UP IN <span className=" underline">2200</span></button>
          </div>
 
       </div>
