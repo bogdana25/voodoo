@@ -12,6 +12,7 @@ module.exports = {
         'grotesk': ['Space Grotesk'],
         'mono': ['Space Mono']
       },
+
     },
   },
   plugins: [],
