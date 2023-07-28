@@ -1,11 +1,21 @@
 .active {
-   display: block;
+   // display: block;
+   opacity: 1;
+   height: 220px;
+   overflow: visible;
+   transition: all 1s;
 }
 
 .hide {
-   display: none;
+   // display: none;
+   height: 0;
+   opacity: 0;
+   overflow: hidden;
+   transition: 1s;
+
 }
 
 .rotate {
    transform: rotate(180deg);
+   transition: transform 0.8s;
 }

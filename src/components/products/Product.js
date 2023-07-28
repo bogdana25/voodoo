@@ -1,4 +1,4 @@
-
+import image from "../../img/product-photo.png";
 const Product = (props) => {
    return (
 
@@ -6,7 +6,7 @@ const Product = (props) => {
          <div>
             <div className="border border-solid border-black rounded relative overflow-hidden">
                <div className="absolute p-2 bg-black rounded text-xs font-normal text-palewhite left-3 top-3">USED</div>
-               <img src={props.image} className="w-full" alt="" />
+               <img src={image} className="w-full" alt="" />
             </div>
             <div className="flex-container flex items-center justify-between py-3">
                <div className="flexbox">

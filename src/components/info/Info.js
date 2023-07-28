@@ -35,11 +35,11 @@ const Info = () => {
 
                <div className='max-w-[1018px] w-full'>
                   <div className='text-sm/[18px] font-medium text-palewhite sm:p-0 pt-1 md:text-left pl-12 text-center'>Important info <span className='hidden md:inline-block'>regarding our service</span></div>
-                  <div className='hide mt-6' ref={textRef}>
-                     <div className=" text-sm[18] font-medium text-white border-y py-6">
+                  <div className='hide' ref={textRef}>
+                     <div className=" text-sm[18] font-medium text-white border-y py-6 mt-6">
                         We’re working on a new service to offer you returned online goods at a discount near you.
                      </div>
-                     <div className=" md:flex text-white py-6 items-center">
+                     <div className=" md:flex text-white my-6 items-center">
                         <div className=" mb-6 md:m-0">
                            <h5 className='font-bold text-sm/[18px] mb-5 text-left'>CURRENTLY</h5>
                            <ol className='font-normal text-xs/[15px] list-decimal ml-4'>
@@ -52,15 +52,15 @@ const Info = () => {
                         <div className="">
                            <h5 className='font-bold text-sm/[18px] mb-5'>FUTURE</h5>
                            <ol className='font-normal text-xs/[15px] list-decimal ml-4'>
-                              <li className="pb-3.5">Returned items from other shoppers</li>
-                              <li className="pb-3.5">Select product categories</li>
-                              <li className="pb-3.5">Focus on end-to-end service experience</li>
+                              <li className="mb-3.5">Returned items from other shoppers</li>
+                              <li className="mb-3.5">Select product categories</li>
+                              <li className="mb-3.5">Focus on end-to-end service experience</li>
                            </ol>
                         </div>
                      </div>
                   </div>
                </div>
-               <div className='md:pl-10 p-0'><img src={arrowdown} alt="arrow" onClick={textHandler} ref={arrow} className=' md:top-0 top-[25px] right-4 md:right-0 absolute md:relative' /></div>
+               <div className='md:pl-10 p-0'><img src={arrowdown} alt="arrow" onClick={textHandler} ref={arrow} className=' md:top-0 top-[25px] right-4 md:right-0 absolute md:relative duration-700 cursor-pointer' /></div>
             </div>
          </div>
       </>
